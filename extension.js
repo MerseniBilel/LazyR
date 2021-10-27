@@ -7,7 +7,6 @@ const Rcleaner = require("./modules/rcleaner");
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-  console.log('Congratulations, your extension "rclean" is now active!');
 
   let cleanArchitecture = vscode.commands.registerCommand(
     "rclean.cleanProjectArchitecture",
@@ -17,6 +16,8 @@ function activate(context) {
         reactProject.deleteUnecessaryFiles();
         reactProject.cleanIndexFile(); 
         reactProject.cleanAppFile();
+        reactProject.cleanHtmlFile();
+        reactProject.cleanCssFile();
         vscode.window.showInformationMessage("Cleaner : React App is Ready, HappyCoding 👌👋 !!! ")
       } catch (error) {
         vscode.window.showErrorMessage("Unkown Error!: We will solve it soon 😓😓");
