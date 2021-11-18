@@ -1,27 +1,27 @@
 {
-  "name": "rclean",
-	"displayName": "Rclean",
-	"description": "Clean React project",
+  "name": "lazyr",
+	"displayName": "LazyR",
+	"description": "Clean a new react application based on the template",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
 	"categories": [
-		"Other"
+		"Formatters"
 	],
 	"activationEvents": [
-        "onCommand:rclean.cleanProjectArchitecture",
-        "onCommand:rclean.addTailwindcss"
+        "onCommand:lazyr.cleanProjectArchitecture",
+        "onCommand:lazyr.addTailwindcss"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-            "command": "rclean.cleanProjectArchitecture",
+            "command": "lazyr.cleanProjectArchitecture",
             "title": "Clean My Project Architecture "
 			},
 			{
-            "command": "rclean.addTailwindcss",
+            "command": "lazyr.addTailwindcss",
             "title": "Add Tailwindcss To My Project"
 			}
 	]
