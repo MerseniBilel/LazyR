@@ -6,7 +6,7 @@ so I created an extension to clean a new react project (you know ... automation 
 
 ## Demo
 
-![Alt text](assets/howitworks.gif) / ![](assets/howitworks.gif)
+![gif represent how it works](assets/howitworks.gif)
 
 ## Features
 
