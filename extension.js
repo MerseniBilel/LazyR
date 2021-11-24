@@ -9,7 +9,7 @@ const Rcleaner = require("./modules/rcleaner");
 function activate(context) {
 
   let cleanArchitecture = vscode.commands.registerCommand(
-    "rclean.cleanProjectArchitecture",
+    "lazyr.cleanProjectArchitecture",
     function () {
       const reactProject = new Rcleaner();
       try {
@@ -27,7 +27,7 @@ function activate(context) {
   );
 
   let addTailwindcss = vscode.commands.registerCommand(
-    "rclean.addTailwindcss",
+    "lazyr.addTailwindcss",
     function () {
       vscode.window.showInformationMessage("Adding TailwindCss");
     }
