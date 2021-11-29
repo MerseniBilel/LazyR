@@ -4,6 +4,10 @@
   "publisher": "mersec",
   "description": "Clean a new react application based on the template",
   "version": "0.0.1",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/MerseniBilel/LazyR.git"
+  },
   "engines": {
     "vscode": "^1.61.0"
   },
